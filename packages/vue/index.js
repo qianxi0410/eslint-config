@@ -13,7 +13,7 @@ module.exports = {
       },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@antfu/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@qianxi0410/eslint-config-ts'],
   rules: {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/html-self-closing': 'off',
