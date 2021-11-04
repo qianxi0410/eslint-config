@@ -2,6 +2,7 @@
 const basic = require('@qianxi0410/eslint-config-basic');
 
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: ['@qianxi0410/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
   overrides: basic.overrides,
   rules: {
