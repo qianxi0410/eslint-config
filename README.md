@@ -7,7 +7,7 @@ My eslint config
 ## download
 
 ```bash
-yarn add @qianxi0410/eslint-config
+pnpm install @qianxi0410/eslint-config
 ```
 
 ## cofig `.eslintrc`
