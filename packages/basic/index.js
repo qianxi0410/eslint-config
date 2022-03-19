@@ -100,7 +100,7 @@ module.exports = {
 		'import/no-absolute-path': 'off',
 
 		// Common
-		semi: ['error', 'never'],
+		semi: ['error', 'always'],
 		curly: ['error', 'multi-or-nest', 'consistent'],
 		quotes: ['error', 'double'],
 		'quote-props': ['error', 'consistent-as-needed'],
