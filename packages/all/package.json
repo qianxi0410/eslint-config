@@ -1,6 +1,6 @@
 {
   "name": "@qianxi0410/eslint-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@qianxi0410/eslint-config-vue": "^2.1.1",
+    "@qianxi0410/eslint-config-vue": "^2.1.2",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
     "eslint-config-standard": "^16.0.3",

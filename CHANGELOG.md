@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/qianxi0410/eslint-config/compare/v2.1.1...v2.1.2) (2022-03-30)
+
+**Note:** Version bump only for package @qianxi0410/eslint-config-monorepo
+
+
+
+
+
 ## [2.1.1](https://github.com/qianxi0410/eslint-config/compare/v2.1.0...v2.1.1) (2022-03-19)
 
 **Note:** Version bump only for package @qianxi0410/eslint-config-monorepo
