@@ -215,7 +215,5 @@ module.exports = {
       { functions: false, classes: false, variables: true },
     ],
     "eslint-comments/disable-enable-pair": "off",
-
-    eqeqeq: ["error", "smart"],
   },
 };

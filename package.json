@@ -1,15 +1,22 @@
 {
-    "name": "@qianxi0410/eslint-config-monorepo",
-    "version": "0.1.0",
-    "license": "MIT",
-    "author": "qianxi",
-    "private": true,
-    "scripts": {
-        "preinstall": "npx only-allow pnpm",
-        "lint": "npx eslint --ext .js,.json,.vue --fix .",
-        "release": "lerna publish --conventional-commits"
-    },
-    "devDependencies": {
-        "lerna": "^4.0.0"
-    }
+  "name": "@qianxi0410/eslint-config-monorepo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "qianxi",
+  "private": true,
+  "access": "public",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@qianxi0410/eslint-config": "*",
+    "@qianxi0410/prettier-config": "^1.0.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "bumpp": "^7.1.1"
+  }
 }
