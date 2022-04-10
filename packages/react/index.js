@@ -6,8 +6,10 @@ module.exports = {
   ],
   settings: {
     react: {
-      version: "17.0",
+      version: "18.0",
     },
   },
-  rules: {},
+  rules: {
+    "react/react-in-jsx-scope": "off",
+  },
 };
