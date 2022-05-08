@@ -12,11 +12,12 @@
   },
   "devDependencies": {
     "@qianxi0410/eslint-config": "*",
-    "@qianxi0410/prettier-config": "^1.0.0",
+    "@qianxi0410/prettier-config": "^1.0.2",
+    "bumpp": "^7.1.1",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.2",
-    "bumpp": "^7.1.1"
+    "prettier": "^2.6.2"
   }
 }

@@ -16,7 +16,6 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
@@ -24,12 +23,10 @@
     "eslint-plugin-jsonc": "^2.2.1",
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-yml": "^0.14.0",
     "jsonc-eslint-parser": "^2.1.0",
-    "prettier": "^2.6.2",
     "yaml-eslint-parser": "^0.5.0"
   },
   "devDependencies": {
