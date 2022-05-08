@@ -12,6 +12,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:unicorn/all',
+    'plugin:security/recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
