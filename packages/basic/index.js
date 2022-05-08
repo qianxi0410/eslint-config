@@ -13,11 +13,14 @@ module.exports = {
     'plugin:yml/standard',
     'plugin:unicorn/all',
     'plugin:security/recommended',
+    'plugin:sonarjs/recommended',
   ],
   plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.cjs', '.ts', '.d.ts', '.jsx', '.tsx'] },
+      node: {
+        extensions: ['.js', '.mjs', '.cjs', '.ts', '.d.ts', '.jsx', '.tsx'],
+      },
     },
   },
   overrides: [

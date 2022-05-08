@@ -90,13 +90,13 @@ importers:
       eslint-plugin-n: 15.2.0_eslint@8.15.0
       eslint-plugin-node: 11.1.0_eslint@8.15.0
       eslint-plugin-promise: 6.0.0_eslint@8.15.0
+      eslint-plugin-security: 1.5.0
       eslint-plugin-unicorn: 42.0.0_eslint@8.15.0
       eslint-plugin-yml: 0.14.0_eslint@8.15.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 0.5.0
     devDependencies:
       eslint: 8.15.0
-      eslint-plugin-security: 1.5.0
 
   packages/react:
     specifiers:
@@ -122,11 +122,13 @@ importers:
       '@typescript-eslint/parser': ^5.22.0
       eslint: ^8.15.0
       eslint-plugin-import: ^2.26.0
+      eslint-plugin-sonarjs: ^0.13.0
       typescript: ^4.6.4
     dependencies:
       '@qianxi0410/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.22.0_tal4xlmvnofklupd3hwjtzfb4q
       '@typescript-eslint/parser': 5.22.0_hcfsmds2fshutdssjqluwm76uu
+      eslint-plugin-sonarjs: 0.13.0_eslint@8.15.0
     devDependencies:
       eslint: 8.15.0
       eslint-plugin-import: 2.26.0_6nacgdzqm4zbhelsxkmd2vkvxy
@@ -1103,7 +1105,16 @@ packages:
     resolution: {integrity: sha512-hAFVwLZ/UeXrlyVD2TDarv/x00CoFVpaY0IUZhKjPjiFxqkuQVixsK4f2rxngeQOqSxi6OUjzJM/jMwKEVjJ8g==}
     dependencies:
       safe-regex: 2.1.1
-    dev: true
+    dev: false
+
+  /eslint-plugin-sonarjs/0.13.0_eslint@8.15.0:
+    resolution: {integrity: sha512-t3m7ta0EspzDxSOZh3cEOJIJVZgN/TlJYaBGnQlK6W/PZNbWep8q4RQskkJkA7/zwNpX0BaoEOSUUrqaADVoqA==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      eslint: 8.15.0
+    dev: false
 
   /eslint-plugin-unicorn/42.0.0_eslint@8.15.0:
     resolution: {integrity: sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==}
@@ -2020,6 +2031,7 @@ packages:
   /regexp-tree/0.1.24:
     resolution: {integrity: sha512-s2aEVuLhvnVJW6s/iPgEGK6R+/xngd2jNQ+xy4bXNDKxZKJH6jpPHY6kVeVv1IeLCHgswRj+Kl3ELaDjG6V1iw==}
     hasBin: true
+    dev: false
 
   /regexp.prototype.flags/1.4.1:
     resolution: {integrity: sha512-pMR7hBVUUGI7PMA37m2ofIdQCsomVnas+Jn5UPGAHQ+/LlwKm/aTLJHdasmHRzlfeZwHiAOaRSo2rbBDm3nNUQ==}
@@ -2080,6 +2092,7 @@ packages:
     resolution: {integrity: sha512-rx+x8AMzKb5Q5lQ95Zoi6ZbJqwCLkqi3XuJXp5P3rT8OEc6sZCJG5AE5dU3lsgRr/F4Bs31jSlVN+j5KrsGu9A==}
     dependencies:
       regexp-tree: 0.1.24
+    dev: false
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}

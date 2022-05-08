@@ -1,3 +1,5 @@
 {
-  "extends": ["@qianxi0410"]
+  "extends": [
+    "@qianxi0410"
+  ]
 }
