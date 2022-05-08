@@ -5,18 +5,14 @@ importers:
   .:
     specifiers:
       '@qianxi0410/eslint-config': '*'
-      '@qianxi0410/prettier-config': ^1.0.2
       bumpp: ^7.1.1
       eslint: ^8.15.0
       eslint-plugin-n: ^15.2.0
-      prettier: ^2.6.2
     devDependencies:
       '@qianxi0410/eslint-config': link:packages/all
-      '@qianxi0410/prettier-config': 1.0.2
       bumpp: 7.1.1
       eslint: 8.15.0
       eslint-plugin-n: 15.2.0_eslint@8.15.0
-      prettier: 2.6.2
 
   packages/all:
     specifiers:
@@ -240,10 +236,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
-
-  /@qianxi0410/prettier-config/1.0.2:
-    resolution: {integrity: sha512-jx68ay8NS19CFu4puq1Abj0gec15yJXw7GNi5UN5c4dnbEzRQTpadKPvyQihjIbgC05x5qOHzZmmhoc13Q13tw==}
-    dev: true
 
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
@@ -1999,12 +1991,6 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
-    dev: true
-
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
     dev: true
 
   /prompts/2.4.2:

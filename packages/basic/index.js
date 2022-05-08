@@ -22,7 +22,7 @@ module.exports = {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
-        'quotes': ['error', 'double'],
+        'quotes': ['error', 'single'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
       },
@@ -100,9 +100,9 @@ module.exports = {
     'import/no-absolute-path': 'off',
 
     // Common
-    'semi': ['error', 'always'],
+    'semi': ['error', 'never'],
     'curly': ['error', 'multi-or-nest', 'consistent'],
-    'quotes': ['error', 'double'],
+    'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
