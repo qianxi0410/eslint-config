@@ -1,3 +1,4 @@
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = {
   extends: [
     'plugin:react/recommended',
@@ -10,7 +11,7 @@ module.exports = {
     node: true,
     jasmine: true,
     jest: true,
-    es6: true,
+    es2022: true,
   },
   globals: {
     React: true,

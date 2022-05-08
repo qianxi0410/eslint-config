@@ -1,18 +1,18 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+// eslint-disable-next-line unicorn/prefer-module
 const basic = require('@qianxi0410/eslint-config-basic')
 
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
     '@qianxi0410/eslint-config-basic',
+    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
   rules: {
-    'import/named': 'off',
-
     // TS
-    'no-useless-constructor': 'off',
+    'no-useless-constructor': 'error',
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': [
       'error',
