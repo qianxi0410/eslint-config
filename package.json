@@ -1,9 +1,9 @@
 {
   "name": "@qianxi0410/eslint-config-monorepo",
   "version": "4.2.0",
+  "private": false,
   "license": "MIT",
   "author": "qianxi",
-  "private": true,
   "access": "public",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -13,7 +13,6 @@
   "devDependencies": {
     "@qianxi0410/eslint-config": "*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.19.0",
-    "eslint-plugin-n": "^15.2.4"
+    "eslint": "^8.19.0"
   }
 }

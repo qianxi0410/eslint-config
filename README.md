@@ -10,10 +10,14 @@ My eslint config
 pnpm install @qianxi0410/eslint-config
 ```
 
-## cofig `.eslintrc`
+## config `.eslintrc`
 
 ```json
 {
-    "extends": ["@qianxi0410"]
+  "extends": ["@qianxi0410"]
 }
 ```
+
+## License
+
+MIT
