@@ -15,6 +15,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:security/recommended',
     'plugin:sonarjs/recommended',
+    'plugin:you-dont-need-lodash-underscore/compatible',
   ],
   plugins: ['html', 'unicorn', 'jsonc'],
   ignorePatterns: [
