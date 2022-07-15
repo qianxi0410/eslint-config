@@ -38,7 +38,7 @@ module.exports = {
     'react/no-unknown-property': 'error',
 
     'react/react-in-jsx-scope': 'off',
-    'react/jsx-filename-extension': 'error',
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'], allow: 'as-needed' }],
     'react/jsx-one-expression-per-line': 'off',
     'react/prop-types': 'off',
     'react/forbid-prop-types': 'off',
