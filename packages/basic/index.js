@@ -144,7 +144,15 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/order': 'error',
+    'import/order': ['error', {
+      'groups': ['index', 'sibling', 'parent', 'internal', 'external', 'builtin', 'object', 'type'],
+      'newlines-between': 'always-and-inside-groups',
+      'alphabetize': {
+        order: 'asc', /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */
+        caseInsensitive: true, /* ignore case. Options: [true, false] */
+      },
+      'warnOnUnassignedImports': true,
+    }],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
@@ -247,6 +255,7 @@ module.exports = {
     'require-await': 'off',
     'no-return-assign': 'off',
     'operator-linebreak': ['error', 'before'],
+    'unicorn/filename-case': 'off',
 
     'no-use-before-define': [
       'error',
