@@ -13,7 +13,7 @@
   "devDependencies": {
     "@qianxi0410/eslint-config": "*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.19.0",
+    "eslint": "^8.20.0",
     "eslint-plugin-n": "^15.2.4"
   }
 }
